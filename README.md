@@ -1,6 +1,8 @@
 # WORDLE Unlimited
 
 A Wordle clone to work around the one word a day limit...
+<img width="1440" height="778" alt="Screenshot 2025-11-30 at 8 10 58 PM" src="https://github.com/user-attachments/assets/562dd3ef-1b5f-4206-bb5d-e2907ddfdfb0" />
+
 
 ## Play the Game!
 1. **Clone from directory**:
