@@ -143,9 +143,12 @@ function showModal() {
 
     //handle play again
     let playAgainButton = document.getElementById("playAgain");
+    let cancelButton = document.getElementById("cancel");
     //avoid duplicate event listeners
     playAgainButton.removeEventListener('click', resetGame);
     playAgainButton.addEventListener('click', resetGame);
+    cancelButton.removeEventListener('click', cancelModal);
+    cancelButton.addEventListener('click', cancelModal);
 }
 
 
@@ -184,4 +187,9 @@ function resetGame() {
             keyTile.classList.remove("present", "absent", "correct");
         }
     }
+}
+
+function cancelModal() {
+    let modal = document.getElementById('finishModal');
+    modal.classList.remove("modal-show");
 }
